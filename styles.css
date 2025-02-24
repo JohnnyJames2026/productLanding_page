@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-header > img {
+img {
     max-width: 8%;
     min-width: 8%;
     height: auto;
@@ -31,7 +31,7 @@ header {
 
 header > h1 {
     margin: auto auto;
-    margin-right: 25%;
+    margin-right: 22%;
 }
 
 #nav-bar > ul{
@@ -48,7 +48,112 @@ header > h1 {
 
 #nav-bar > ul > li > a {
     text-decoration: none;
-    color: black;
+    color: rgb(187, 121, 0);
+    font-size: 1.4rem;
     padding: 10px 15px;
 }
 
+#form {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+#email {
+    width: 15vw;
+    height: 2.5vh;
+}
+
+#join {
+    margin-right: 25px;
+}
+
+#mailing {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#submit {
+    height: 3vh;
+    width: 4vw;
+    background-color: gold;
+    color: black;
+}
+
+.statements {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 30px;
+    
+}
+
+.statements > h1 {
+    margin-left: 20px;
+    color: rgb(187, 121, 0);
+}
+
+.missiontext {
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+#Products {
+    text-align: center;
+}
+
+#Pricing {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.description {
+    text-align: center;
+    border: solid black 2px;
+    background-color: rgb(95, 213, 252);
+    height: 455px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.productImage {
+    max-width: 60%;
+    height: fit-content;
+}
+
+.description > h2 {
+    font-weight: bold;
+}
+
+.description > a {
+    width: 60%;
+    height: 30%;
+    background-color: gold;
+}
+
+#termsConditions
+{
+    text-align: center;
+    background-color: lightgrey;
+    width: 100%;
+    height: 15%;
+    margin-bottom: -20px;
+}
+
+#termsConditions > ul{
+    display: flex;
+    align-items: center;
+}
+
+
+#termsConditions > ul > li {
+    list-style: none;
+    margin: 50px;
+}
+
+#termsConditions > ul > li > a {
+    text-decoration: none;
+}
