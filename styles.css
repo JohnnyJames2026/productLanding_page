@@ -15,12 +15,17 @@ img {
 }
 
 
-header {
+#nav-bar > header {
     background-color: white;
+    position: fixed;
+    height: 14%;
+    width: 100%;
+    top: 0;
+}
+
+header {
     display: flex;
     align-items: center;
-    height: 20%;
-    width: 100%;
 }
 
 #spacer {
@@ -34,7 +39,7 @@ header > h1 {
     margin-right: 22%;
 }
 
-#nav-bar > ul{
+#nav-bar > header > ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,20 +47,22 @@ header > h1 {
 
 }
 
-#nav-bar > ul > li {
+#nav-bar > header > ul > li {
     list-style: none;
 }
 
-#nav-bar > ul > li > a {
+#nav-bar > header > ul > li > a {
     text-decoration: none;
     color: rgb(187, 121, 0);
     font-size: 1.4rem;
     padding: 10px 15px;
 }
 
+
+
 #form {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
 }
@@ -76,7 +83,7 @@ header > h1 {
 
 #submit {
     height: 3vh;
-    width: 4vw;
+    width: 6vw;
     background-color: gold;
     color: black;
 }
